@@ -1,5 +1,5 @@
 ## W06D01 HW
-### Node.js module and exports, Module sharing
+### Node.js module and exports, Module sharing, The file system, The HTTP Module
 #### Task 1:
 * Create a file that called student.js, define a function that will accept 1 parameter: the name of student and print : "Student name is" + name that passed to the function.
 * Export the previous function and use it in your app.js, calling it with different names of students.js.
