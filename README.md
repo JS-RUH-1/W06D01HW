@@ -1,0 +1,23 @@
+## W06D01 HW
+### Node.js module and exports, Module sharing
+#### Task 1:
+* Create a file that called student.js, define a function that will accept 1 parameter: the name of student and print : "Student name is" + name that passed to the function.
+* Export the previous function and use it in your app.js, calling it with different names of students.js.
+#### Task 2:
+* Create a file called shape.js, define 2 variables: width and height with initial value: 0.
+* Use width and height in another files: square.js and triangle.js
+* In triangle.js assign values to width and height, print the value for height and width and the area for the shape.
+* In square.js assign value to the width only, print the value for height and width and the area for the shape.
+* Use square and triangle in your app.js.
+* Try to call triangle before square and how the result of width will be different, and here the Module sharing and Reference concept in Node js will be shown. 
+#### Task 3:
+* Create a text file that contain many information about you.
+* In app.js read that file using readFile.   
+#### Task 4:
+* Create http server.
+* Create a file that contain HTML code. 
+* use readFile to read the HTML file
+* use response.write for the data from HTML file. 
+* Run the file to see the result.
+* Comment the previous and make a new response.write but in this time for variable that contain json. 
+* Run the file to see the result.
