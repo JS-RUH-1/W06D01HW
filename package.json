@@ -1,0 +1,19 @@
+{
+  "name": "w06d01hw",
+  "version": "1.0.0",
+  "description": "* Create a file that called student.js, define a function that will accept 1 parameter: the name of student and print : \"Student name is\" + name that passed to the function.\r * Export the previous function and use it in your app.js, calling it with different names of students.js.\r #### Task 2:\r * Create a file called shape.js, define 2 variables: width and height with initial value: 0.\r * Use width and height in another files: square.js and triangle.js\r * In triangle.js assign values to width and height, print the value for height and width and the area for the shape.\r * In square.js assign value to the width only, print the value for height and width and the area for the shape.\r * Use square and triangle in your app.js.\r * Try to call triangle before square and how the result of width will be different, and here the Module sharing and Reference concept in Node js will be shown. \r #### Task 3:\r * Create a text file that contain many information about you.\r * In app.js read that file using readFile.   \r #### Task 4:\r * Create http server.\r * Create a file that contain HTML code. \r * use readFile to read the HTML file\r * use response.write for the data from HTML file. \r * Run the file to see the result.\r * Comment the previous and make a new response.write but in this time for variable that contain json. \r * Run the file to see the result.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shahad-F/W06D01HW.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shahad-F/W06D01HW/issues"
+  },
+  "homepage": "https://github.com/Shahad-F/W06D01HW#readme"
+}
