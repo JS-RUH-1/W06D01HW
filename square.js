@@ -1,11 +1,11 @@
 const shape = require ('./shape')
 
-let height = 150;
-let width = 40;
-let area = height * width;
+shape.height = 150;
+shape.width = 40;
+shape.area = shape.height * shape.width;
 
 function printSquare (){
-    console.log ('====== SQUARE ======\n',`Height is : ${height} , Width ${width} and Area : ${area}`,'\n====================')
+    console.log ('====== SQUARE ======\n',`Height is : ${shape.height} , Width ${shape.width} and Area : ${shape.area}`,'\n====================')
 }
 
 module.exports = { printSquare }

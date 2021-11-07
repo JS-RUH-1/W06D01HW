@@ -2,14 +2,14 @@
 const students = require ('./students');
 students.printStudentName("Basel");
 
-/* Print Square Dimensions */
-const square = require ('./square');
-square.printSquare();
-
 /* Print Triangle Dimensions */
 
 const triangle = require ('./triangle');
 triangle.printTriangle();
+
+/* Print Square Dimensions */
+const square = require ('./square');
+square.printSquare();
 
 /* Read text file */
 const fs = require ('fs');
