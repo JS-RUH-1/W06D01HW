@@ -1,6 +1,6 @@
 const shape = require ('./shape')
 
-shape.height = 150;
+shape.height = shape.height;
 shape.width = 40;
 shape.area = shape.height * shape.width;
 

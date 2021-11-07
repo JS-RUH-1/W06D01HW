@@ -1,6 +1,6 @@
 const shape = require ('./shape')
 
-shape.height = shape.height;
+shape.height = 130;
 shape.width = 89;
 shape.area = shape.height * shape.width; // idk how to calculate area of triangle
 
