@@ -3,6 +3,7 @@ const nameStudent =require('./student')
 const areaT =require('./triangle')
 const areaS =require('./square')
 const http = require('http');
+const filJson =require('./page.json')
 // #task 1
 // fs.writeFile('name.text', "Student name is" + nameStudent.name("Mushira") ,function(err){
 //     if (err) throw err;
@@ -27,26 +28,26 @@ fs.writeFile('name.text', "Area for square " + areaS.square('') ,function(err){
 //     if (err) throw err;
 //     console.log('Saved!');
 // })
-fs.readFile('information.txt', function (err, data) {
+fs.readFile('information.text', function (err, data) {
     if (err) throw err;
-console.log(data); });
+console.log(data.toString()); });
 
 // #Task 4
 // HTML
-// http.createServer(function (request, response) {
-// //   res.writeHead(200, {'Content-Type': 'text/html'});
-// //   res.write(req.url);
-// fs.readFile('./index.html', function(err, data) {
-//             if(err) throw err
-//           response.write(data);
-//   return response.end();
-// });
-// }).listen(8080);
+http.createServer(function (request, response) {
+//   res.writeHead(200, {'Content-Type': 'text/html'});
+//   res.write(req.url);
+fs.readFile('./index.html', function(err, data) {
+            if(err) throw err
+          response.write(data);
+  return response.end();
+});
+}).listen(8080);
 
 // Json
-http.createServer(function (request, response) {    
-     let page = JSON.stringify(fileJSON);
-     response.write(data);
-     return response.end();
+// http.createServer(function (request, response) {    
+//      let data = JSON.stringify(filJson);
+//      response.write(data);
+//      return response.end();
   
-}).listen(8080);
+// }).listen(8080);
