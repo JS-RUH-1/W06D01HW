@@ -1,0 +1,3 @@
+name : amjad
+age : 26
+location : tuwaiq academy
